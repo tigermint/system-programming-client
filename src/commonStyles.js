@@ -29,13 +29,13 @@ export const GlobalStyles = createGlobalStyle`
   margin: 0;
   }
   
-  @media (min-width: 425px) {
+  @media (min-width: 500px) {
     .App {
-    width: 425px;
+    width: 500px;
     }
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     .App {
       width: 90vw;
     }

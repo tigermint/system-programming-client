@@ -40,7 +40,7 @@ function Copyright(props) {
 
 const defaultTheme = createTheme();
 
-export default function SignIn() {
+export default function SignIn({ setName }) {
     const navigate = useNavigate();
     const handleSubmit = (event) => {
         event.preventDefault();

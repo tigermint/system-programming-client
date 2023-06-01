@@ -5,8 +5,7 @@ import Diversity1Icon from '@mui/icons-material/Diversity1';
 import SchoolIcon from '@mui/icons-material/School';
 import FamilyRestroomIcon from '@mui/icons-material/FamilyRestroom';
 
-export default function LabelBottomNavigation() {
-    const [value, setValue] = React.useState('recents');
+export default function LabelBottomNavigation({ value, setValue }) {
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
@@ -21,8 +20,8 @@ export default function LabelBottomNavigation() {
                 icon={<FamilyRestroomIcon />}
             />
             <BottomNavigationAction
-                label="School"
-                value="School"
+                label="school"
+                value="school"
                 icon={<SchoolIcon />}
             />
             <BottomNavigationAction label="friend" value="friend" icon={<Diversity1Icon />} />
